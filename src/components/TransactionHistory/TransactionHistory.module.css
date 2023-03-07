@@ -5,13 +5,13 @@
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0px 0px 8px rgb(0 0 0 / 12%);
-    background-color: var(--white);
+    background-color: white;
     margin-bottom: 20px;
 }
 
 .head {
     text-transform: uppercase;
-    color: var(--white);
+    color: white;
     background-color: tomato;
 }
 
@@ -20,11 +20,11 @@
 }
 
 .head-item:not(:last-child) {
-    border-right: 1px solid var(--white);
+    border-right: 1px solid white;
 }
 
 .row:nth-child(2n) {
-    background-color: var(--bg-primary);
+    background-color: #e7ecf2;
 }
 
 .row-item {
@@ -40,5 +40,5 @@
 }
 
 .table-body {
-    color: var(--text-secondary);
+    color: #808f9e;
 }

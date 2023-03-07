@@ -5,10 +5,10 @@
 
     width: 320px;
     margin: 20px auto;
-    background-color: var(--white);
+    background-color: white;
     
     border-radius: 4px;
-    border: 1px solid var(--border-color);
+    border: 1px solid #e0dede;
     box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
 }
 
@@ -34,7 +34,7 @@
 }
 
 .tag, .location, .label {
-    color: var(--text-secondary);
+    color: #808f9e;
 }
 
 .label {
@@ -50,9 +50,9 @@
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: var(--bg-secondary);
+    background-color: #f3f6f9;
 
-    border-top: 1px solid var(--border-color);
+    border-top: 1px solid #e0dede;
     border-radius: 0 0 4px 4px;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .item:not(:last-child) {
-    border-right: 1px solid var(--border-color);
+    border-right: 1px solid #e0dede;
 }
 
 
