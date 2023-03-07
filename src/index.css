@@ -1,5 +1,4 @@
-/* bring in normalize.css styles */
-
+/* @import-normalize; bring in normalize.css styles */
 :root {
   --white: #ffffff;
   --text-primary: #122236;
@@ -30,14 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
+h1,h2,h3,h4,h5,h6,p, ul {
   margin: 0;
 }
 
